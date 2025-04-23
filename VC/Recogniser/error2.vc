@@ -1,0 +1,5 @@
+// 缺少分号
+void error2() {
+  int x
+  x = 5;
+}

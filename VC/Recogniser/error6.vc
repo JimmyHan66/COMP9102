@@ -1,0 +1,5 @@
+// 意外的token
+void error6() {
+  x = 5;
+  continue 10;
+}

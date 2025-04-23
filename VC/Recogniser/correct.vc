@@ -1,0 +1,121 @@
+// Test 1: 空块
+void test1() {
+}
+
+// Test 2: 只有声明的块
+void test2() {
+  int i;
+  float f;
+  boolean b;
+}
+
+// Test 3: 只有语句的块
+void test3() {
+  i = 2;
+  f = 3.14;
+  b = true;
+}
+
+// Test 4: 声明和语句的块
+void test4() {
+  int i;
+  float f;
+  boolean b;
+  i = 5;
+  f = 2.718;
+  b = false;
+}
+
+// Test 5: 嵌套块
+void test5() {
+  {
+    int x;
+    x = 10;
+  }
+}
+
+// Test 6: if语句
+void test6() {
+  if (x > 5) {
+    y = 10;
+  } else {
+    y = 0;
+  }
+}
+
+// Test 7: for循环
+void test7() {
+  for (i = 0; i < 10; i = i + 1)
+    sum = sum + i;
+}
+
+// Test 8: 空的for循环
+void test8() {
+  for (;;)
+    i = i + 1;
+}
+
+// Test 9: while循环
+void test9() {
+  while (x < 100)
+    x = x * 2;
+}
+
+// Test 10: 多变量声明
+void test10() {
+  int a, b, c;
+  a = 1;
+  b = 2;
+  c = 3;
+}
+
+// Test 11: 数组声明和访问
+void test11() {
+  int arr[10];
+  arr[5] = 25;
+}
+
+// Test 12: 函数调用
+void test12() {
+  int result;
+  result = calculate(5, 10);
+}
+
+// Test 13: 复杂表达式
+void test13() {
+  x = a * b + c / d - (e + f);
+}
+
+// Test 14: 复杂布尔表达式
+void test14() {
+  boolean result;
+  result = (a > b) && (c < d) || !(e == f);
+}
+
+// Test 15: 函数参数
+int add(int a, int b) {
+  return a + b;
+}
+
+// Test 16: 数组参数
+void processArray(int arr[]) {
+  int i;
+  for (i = 0; i < 10; i = i + 1)
+    arr[i] = i * 2;
+}
+
+// Test 17: 初始化器列表
+void test17() {
+  int numbers[3] = {1, 2, 3};
+}
+
+// Test 18: break和continue语句
+void test18() {
+  int i;
+  for (i = 0; i < 10; i = i + 1) {
+    if (i == 5)
+      continue;
+    if (i == 8)
+      break;
+  }
+}

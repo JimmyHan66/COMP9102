@@ -1,0 +1,4 @@
+// 无效的数组声明
+void error7() {
+  int arr[a + b];
+}
