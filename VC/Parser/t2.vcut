@@ -1,6 +1,0 @@
-Program
-  DeclList
-    GlobalVarDecl
-      int
-      i
-    EmptyDeclList
